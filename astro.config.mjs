@@ -20,7 +20,7 @@ function rehypeLazyImages() {
 }
 
 export default defineConfig({
-  site: 'https://vukilis.com',
+  site: 'https://www.sudarblogger.com',
   trailingSlash: 'always',
 
   markdown: unified({
