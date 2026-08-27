@@ -20,7 +20,7 @@ allBlogPosts.forEach((p) => (p.data.tags ?? []).forEach((t) => tagSet.add(t)));
 const allTags = Array.from(tagSet).sort();
 void allTags; // tags cloud removed; kept for future use
 
-const yearStarted = 2023;
+const yearStarted = 2017;
 const yearsOfBuilding = new Date().getFullYear() - yearStarted;
 
 const stats = [
