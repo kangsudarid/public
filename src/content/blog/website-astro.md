@@ -18,10 +18,6 @@ categories: [Web]
 description: "Setelah berkelana kesana - kemari akhirnya menjadi pilihan ngeblog adalah Framework Astro"
 ---
 
-import { Image } from 'astro:assets';
-import astroImg from '../../../assets/images/2026/new_website_based_on_astro/website.png';
-
-<Image src={astroImg} alt="Astro Website" />
 Setalah sekian lama menjacari Framework yang cocok untuk blog kesayangan akhirnya saya menemukan yang pas untuk blog ini. Yups saya sekarang menggunakan Framework Astro dalam pengembangan website pribadi saya ini. 
 
 Mungkin yang pernah berkunjung diblog ini tampilan nya selalu berbeda - beda? itu karena blog ini masih uji coba menggunakan Framework yang populer seperti, Nextjs, Gatsby dan Hugo. 
