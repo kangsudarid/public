@@ -14,7 +14,7 @@ draft: false
 license: "MIT"
 
 tags: [astro, hugo, adsense]
-categories: [Web]
+categories: [Web, Tutorial]
 description: "Bagaimana Deploy Astro di Cloudflare Worker, apakah itu populer di kalangan devoloper?"
 ---
 
@@ -29,8 +29,8 @@ Cloudflare Workers adalah platform eksekusi kode serverless (tanpa server) yang 
 ### Keunggulan & Cara Kerja Utama
 - ​**Latensi Sangat Rendah**: Karena kode berjalan di ratusan pusat data Cloudflare di seluruh dunia, permintaan (request) dari pengguna langsung diproses di kota/negara terdekat tanpa perlu memutar ke server asal.  
 - **​Berbasis V8 Isolate**: Workers tidak menggunakan virtual machine atau kontainer Docker yang berat. Workers menggunakan V8 Isolate (teknologi yang sama di Google Chrome), membuat waktu mulai (cold start) nyaris 0 milidetik.
-- **​Otomatis Berskala (Auto-scaling)**: Dapat menangani puluhan hingga jutaan permintaan secara otomatis tanpa perlu mengonfigurasi atau mengelola server.  
-​- **Bahasa Utama**: Mendukung JavaScript, TypeScript, Rust, C/C++, dan WebAssembly. 
+- **​Otomatis Berskala (Auto-scaling)**: Dapat menangani puluhan hingga jutaan permintaan secara otomatis tanpa perlu mengonfigurasi atau mengelola server.
+- **Bahasa Utama**: Mendukung JavaScript, TypeScript, Rust, C/C++, dan WebAssembly. 
 
 Apa beda nya Cloudflare Pages sama Cloudflare Worker? Tentu itu juga yang menjadi pertanyaan kalian. Oke kali ini saya akan jelaskan kepada kalian supaya lebih paham
 
@@ -117,3 +117,18 @@ pnpm build                    # verify the build works
 pnpm preview --host 0.0.0.0   # preview production build locally
 ```
 Tunggu hingga prosesnya maka website kalian bisa tampil langsung dengan server local. 
+
+Apakah di Clouflare Worker bisa custom domain? Jawabanya tentu bisa dan proses nya itu sangatlah gampang. 
+
+## Custom Domain di Cloudflare Worker
+
+Berikut ini adalah tutorial custome domain di worker cloudflare
+- Masuk Worker & Page
+- Setelah itu pilih Project Worker kalian klik View Setting pada titik tiga di kanan
+- Pilih Domain,  klik Add Domain
+- Selanjutnya pilih domain yang ingin di Custom
+- Tunggu Prosesnya selesai
+
+## Penutup
+Dengan tutorial ini apa masih bingung, jika kebingungan bisa langsung tanyakan aja di kolom komentar yang ada di bawah ya. 
+
