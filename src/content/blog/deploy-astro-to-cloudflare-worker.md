@@ -1,5 +1,5 @@
 ---
-title: "Cara Deploy Astro di Cloudflare Worker"
+title: "Cara Deploy Astro di Cloudflare Workers"
 pubDate: 2026-08-28T18:27:55+02:00
 lastmod: 2026-08-28T18:27:55+02:00
 share:
@@ -15,7 +15,7 @@ license: "MIT"
 
 tags: [astro, hugo, adsense]
 categories: [Web, Tutorial]
-description: "Bagaimana Deploy Astro di Cloudflare Worker, apakah itu populer di kalangan devoloper?"
+description: "Bagaimana Deploy Astro di Cloudflare Workers, apakah itu populer di kalangan devoloper?"
 ---
 
 Mencoba hal baru di website ini, kali ini mencoba menggunakan Cloudflare Worker yang mana populer di kalangan devoloper luar, saya sendiri sering mencari themes yang pas untuk website ini. 
@@ -24,7 +24,7 @@ Seperti kalian tau kalau beberapa hari lalu saya [Migrasi ke Astro](https://www.
 
 Buat yang belum tau apa sih yang itu Cloudflare Worker beda kah dengan Cloudflare Pages, tentu itu jadi pertanyaan menurut saya pribadi dan rekan - rekan yang baru terjun di dunia blogger. 
 
-## Apa itu Cloudflare Worker? 
+## Apa itu Cloudflare Workers? 
 Cloudflare Workers adalah platform eksekusi kode serverless (tanpa server) yang memungkinkan pengembang menjalankan kode di jaringan global (edge network) milik Cloudflare.  
 
 ​Berbeda dari server tradisional atau cloud provider biasa yang menempatkan kode di satu lokasi pusat data, Cloudflare Workers mengeksekusi kode di server edge yang paling dekat dengan lokasi pengguna.
@@ -42,7 +42,7 @@ Keduanya sama-sama bagus, tetapi dirancang untuk tujuan utama yang berbeda. Page
 
 ​Pilihan tergantung pada apa yang ingin Anda bangun:
 
-| Fitur/Pertimbangan | Clouflare Pages | Clouflare Worker |
+| Fitur/Pertimbangan | Clouflare Pages | Clouflare Workers |
 | :--- | :--- | :--- |
 | Fokus Utama | Aplikasi Frontend, Situs Statis, & Full-Stack (Jamstack). | Backend API, Middleware, & Edge Computing. |
 | Pengembangan (DX) | Sangat mudah. Hubungkan repository GitHub/GitLab, otomatis deploy saat `git push`. | Menggunakan CLI (wrangler) untuk menulis dan mengunggah kode backend secara langsung. |
@@ -57,7 +57,7 @@ Jika kalian ingin deploy Astro dengan theme mirip yang saya pakai kalian bisa la
 ## Git Github Project
 
 ```bash title="git"
-git clone git@github.com:vukilis/website.git
+git clone git@github.com:kangsudarid/public.git
 ```
 Tunggu hingga proses selesai clone nya sekarang akan pergi ke Cloudflare untuk membuat website nya
 
@@ -123,12 +123,12 @@ Tunggu hingga prosesnya maka website kalian bisa tampil langsung dengan server l
 
 Apakah di Clouflare Worker bisa custom domain? Jawabanya tentu bisa dan proses nya itu sangatlah gampang. 
 
-## Custom Domain di Cloudflare Worker
+## Custom Domain di Cloudflare Workers
 
 Berikut ini adalah tutorial custome domain di worker cloudflare
-- Masuk Worker & Page
-- Setelah itu pilih Project Worker kalian klik View Setting pada titik tiga di kanan
-- Pilih Domain,  klik Add Domain
+- Masuk **Workers & Page**
+- Setelah itu pilih Project Worker kalian klik **View Setting** pada titik tiga di kanan
+- Pilih Domain,  klik **Add Domain**
 - Selanjutnya pilih domain yang ingin di Custom
 - Tunggu Prosesnya selesai
 
