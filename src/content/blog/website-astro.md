@@ -70,7 +70,16 @@ Ada beberapa perubahan besar yang mengharuskan developer melakukan penyesuaian j
 Namun Astro yang saat ini yang saya pakai masih menggunakan versi yang ke 6 dimana belum update ke versi yang lebih baru ini.
 
 ## Diupdate Pengembang
-Di Astro juga selalu update setiap bulan nya oleh tim devoloper, ditambah lagi di Astro ini juga open source jadi bebas mau bikin website sesuka hati kalian, biasa buat leadingpage, portofolio atau toko online misalnya. 
+Di Astro juga selalu update setiap bulan nya oleh tim devoloper, ditambah lagi di Astro ini juga open source jadi bebas mau bikin website sesuka hati kalian, biasa buat leadingpage, portofolio atau toko online misalnya.
+
+Salah satunya adalah Update [AstroJS 7](https://astro.build/blog/astro-7/) ini yang memiliki banyak fitur menarik 
+
+### Fitur Utama Astro 7
+- **Kompiler Rust**: Inti komponen dan pemrosesan ditulis ulang menggunakan Rust untuk mempercepat waktu pembuatan (build) situs hingga 61%.
+- **Vite 8**: Menggunakan versi terbaru Vite untuk pengalaman pengembangan (dev server) yang lebih gesit.
+- **Markdown & MDX berbasis Rust (Sätteri)**: Pipeline pemrosesan baru yang membuat fitur seperti tabel dan catatan kaki aktif secara bawaan (default) tanpa plugin tambahan.
+- **Peningkatan AI & Server Latar Belakang**: Mendukung perintah seperti astro dev --background untuk alur kerja agen pengkodean AI.
+- **Penyimpanan Cache Rute**: Menyediakan penyedia cache CDN (Netlify, Vercel, Cloudflare) dan memori cache untuk efisiensi rute.
 
 ## Performa AstroJS
 Performa Astro.js sangat tinggi karena mengirimkan HTML murni ke browser secara default tanpa menyertakan kode JavaScript yang tidak penting bagi pengguna. 
