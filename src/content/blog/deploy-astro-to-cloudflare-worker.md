@@ -58,3 +58,62 @@ git clone git@github.com:vukilis/website.git
 ```
 Tunggu hingga proses selesai clone nya sekarang akan pergi ke Cloudflare untuk membuat website nya
 
+## Konfirmasi Wangler.toml
+
+```bash title="wrangler.toml"
+name = "website"
+compatibility_date = "2026-08-20"
+compatibility_flags = ["nodejs_compat"]
+
+
+[assets]
+directory = "./dist"
+not_found_handling = "404-page"
+
+[placement]
+mode = "smart"
+
+[observability]
+enabled = false
+head_sampling_rate = 1
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+persist = true
+invocation_logs = true
+
+[observability.traces]
+enabled = false
+persist = true
+head_sampling_rate = 1
+```
+
+Pastikan nama ini sama url `website.sudarblogger.worker.dev` agar saat build tidak ada yang error. 
+
+## Building
+Untuk yang ingin menggunakan local host maka untuk build nya seperti ini
+
+```bash
+pnpm build
+```
+## Previewing
+Atau kalian ingin review website kalian disitus local host bisa lakukan seperti ini untuk build nya. 
+```bash
+pnpm preview --host 0.0.0.0
+```
+## Alur Kerja Worker
+
+Berikut ini adalah alur kerja proses worker
+
+```bash
+git clone https://github.com/kpab/website-v2.git
+cd website
+nix develop                   # enter the Nix shell
+pnpm install                  # install dependencies
+pnpm dev --host 0.0.0.0       # start developing
+# ... make changes ...
+pnpm build                    # verify the build works
+pnpm preview --host 0.0.0.0   # preview production build locally
+```
+Tunggu hingga prosesnya maka website kalian bisa tampil langsung dengan server local. 
