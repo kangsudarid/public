@@ -20,10 +20,13 @@ description: "Bagaimana Deploy Astro di Cloudflare Worker, apakah itu populer di
 
 Mencoba hal baru di website ini, kali ini mencoba menggunakan Cloudflare Worker yang mana populer di kalangan devoloper luar, saya sendiri sering mencari themes yang pas untuk website ini. 
 
+Seperti kalian tau kalau beberapa hari lalu saya [Migrasi ke Astro](https://www.sudarblogger.com/blog/migrasi-ke-astrojs/) oleh karena itu saya akan berbagi tutorial bagaimana deploy Astro di cloudflare ini. 
+
 Buat yang belum tau apa sih yang itu Cloudflare Worker beda kah dengan Cloudflare Pages, tentu itu jadi pertanyaan menurut saya pribadi dan rekan - rekan yang baru terjun di dunia blogger. 
 
 ## Apa itu Cloudflare Worker? 
 Cloudflare Workers adalah platform eksekusi kode serverless (tanpa server) yang memungkinkan pengembang menjalankan kode di jaringan global (edge network) milik Cloudflare.  
+
 ​Berbeda dari server tradisional atau cloud provider biasa yang menempatkan kode di satu lokasi pusat data, Cloudflare Workers mengeksekusi kode di server edge yang paling dekat dengan lokasi pengguna.
 ​
 ### Keunggulan & Cara Kerja Utama
@@ -42,9 +45,9 @@ Keduanya sama-sama bagus, tetapi dirancang untuk tujuan utama yang berbeda. Page
 | Fitur/Pertimbangan | Clouflare Pages | Clouflare Worker |
 | :--- | :--- | :--- |
 | Fokus Utama | Aplikasi Frontend, Situs Statis, & Full-Stack (Jamstack). | Backend API, Middleware, & Edge Computing. |
-| Pengembangan (DX) | Sangat mudah. Hubungkan repository GitHub/GitLab, otomatis deploy saat git push. | Menggunakan CLI (wrangler) untuk menulis dan mengunggah kode backend secara langsung. |
+| Pengembangan (DX) | Sangat mudah. Hubungkan repository GitHub/GitLab, otomatis deploy saat `git push`. | Menggunakan CLI (wrangler) untuk menulis dan mengunggah kode backend secara langsung. |
 | Frameworks | Sangat cocok untuk React, Next.js, Vue, Nuxt, Astro, Svelte, dll. | Tidak ideal untuk rendering UI framework rumit secara langsung (kecuali API backend-nya). |
-| Routing | Berbasis file/folder (seperti folder /public atau functions/). | Berbasis kode (programmatic routing menggunakan kode JavaScript/TypeScript). |
+| Routing | Berbasis file/folder (seperti folder `/public` atau functions/). | Berbasis kode (programmatic routing menggunakan kode JavaScript/TypeScript). |
 | Fitur Serverless | Mendukung Pages Functions (di balik layar memanfaatkan Workers). | Menggunakan Workers murni. |
 
 Nah Sekarang sudah tau kan perbedaan nya. Oke sekarang kita lanjut ke intinya yaitu Deploy Astro di Cloflare Worker
