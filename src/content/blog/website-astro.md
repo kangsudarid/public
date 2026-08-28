@@ -78,7 +78,7 @@ Salah satunya adalah Update [AstroJS 7](https://astro.build/blog/astro-7/) ini y
 - **Kompiler Rust**: Inti komponen dan pemrosesan ditulis ulang menggunakan Rust untuk mempercepat waktu pembuatan (build) situs hingga 61%.
 - **Vite 8**: Menggunakan versi terbaru Vite untuk pengalaman pengembangan (dev server) yang lebih gesit.
 - **Markdown & MDX berbasis Rust (Sätteri)**: Pipeline pemrosesan baru yang membuat fitur seperti tabel dan catatan kaki aktif secara bawaan (default) tanpa plugin tambahan.
-- **Peningkatan AI & Server Latar Belakang**: Mendukung perintah seperti astro dev --background untuk alur kerja agen pengkodean AI.
+- **Peningkatan AI & Server Latar Belakang**: Mendukung perintah seperti astro dev `--background` untuk alur kerja agen pengkodean AI.
 - **Penyimpanan Cache Rute**: Menyediakan penyedia cache CDN (Netlify, Vercel, Cloudflare) dan memori cache untuk efisiensi rute.
 
 ## Performa AstroJS
