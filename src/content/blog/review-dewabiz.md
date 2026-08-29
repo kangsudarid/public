@@ -36,12 +36,12 @@ DewaBiz menggunakan server NVMe SSD dan teknologi LiteSpeed Web Server, yang sec
 
 LiteSpeed juga dilengkapi cache bawaan, yang sangat membantu meningkatkan performa WordPress, WooCommerce, hingga CMS lainnya.
 
-###:2. Harga Hosting Terjangkau
+### 2. Harga Hosting Terjangkau
 Salah satu daya tarik utama DewaBiz adalah harga yang sangat bersaing. Paket hosting mulai dari Rp 12.000/bulan, dengan fitur lengkap bahkan di paket dasar. Ini cocok untuk pelajar, pemula, hingga UMKM.
 
 Masing-masing hadir dengan resource berbeda, tapi tetap murah dan transparan.
 
-###:3. Gratis Domain dan SSL
+### 3. Gratis Domain dan SSL
 DewaBiz memberikan domain gratis untuk pembelian hosting tahunan dan SSL Let's Encrypt gratis selamanya, mendukung keamanan dan kepercayaan pengunjung.
 
 ### 4. Layanan Backup Harian
@@ -50,10 +50,10 @@ DewaBiz menyediakan backup otomatis harian di semua paket shared hosting, yang j
 ### 5. Fitur Premium: Anti DDoS & Proteksi Malware
 DewaBiz menyediakan fitur Imunify360 untuk perlindungan dari malware, serta anti-DDoS protection agar server tetap aman dari serangan trafik berlebih. Keamanan ekstra ini menjadikannya unggul dibandingkan penyedia lain di segmen harga serupa.
 
-###:6. Layanan Bantuan 24/7
+### 6. Layanan Bantuan 24/7
 Customer service DewaBiz tersedia 24 jam via live chat dan tiket. Responnya cepat, bahkan untuk pengguna baru. Dukungan teknis juga diberikan dalam bahasa Indonesia dengan solusi yang langsung ke inti masalah.
 
-###'7. Pilihan Data Center Lokal & Internasional
+### 7. Pilihan Data Center Lokal & Internasional
 DewaBiz menyediakan pilihan data center di Indonesia (Jakarta) dan luar negeri, memungkinkan pengguna memilih lokasi sesuai target pengunjung.
 
 ## Kekurangan DewaBiz
