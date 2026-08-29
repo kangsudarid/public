@@ -17,6 +17,7 @@ tags: [astro, vite, cloudflare, react]
 categories: [Web]
 description: "Setelah berkelana kesana - kemari akhirnya menjadi pilihan ngeblog adalah Framework Astro"
 ---
+
 import { Image } from 'astro:assets';
 import astroImg from '../../../assets/images/2026/new_website_based_on_astro/websiteku.png';
 
@@ -24,7 +25,7 @@ import astroImg from '../../../assets/images/2026/new_website_based_on_astro/web
     alt="Astro Website" 
     widths={[640, 960, 1280, 1600]}
     sizes="(max-width: 768px) 100vw, 900px"
-    formats={['avif', 'webp', 'png']}
+    formats={['avif', 'webp']}
     quality={80}
     loading="lazy"/>
 
