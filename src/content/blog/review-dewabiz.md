@@ -101,7 +101,7 @@ Bisa, tersedia Softaculous Auto Installer di semua paket.
 
 Ada, garansi 30 hari uang kembali jika tidak puas.
 
-###:3. Apakah DewaBiz cocok untuk toko online?
+### 3. Apakah DewaBiz cocok untuk toko online?
 
 Sangat cocok, apalagi dengan kombinasi LiteSpeed + SSL + backup harian.
 
