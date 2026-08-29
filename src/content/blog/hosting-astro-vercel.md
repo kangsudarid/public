@@ -1,7 +1,7 @@
 ---
 title: "Steb by steb Cara Hosting Astro di Vercel"
 pubDate: 2026-03-28T01:17:55+02:00
-lastmod: 2026-03-286T01:17:55+02:00
+lastmod: 2026-03-28T01:17:55+02:00
 share:
   enable: true
   link: true
