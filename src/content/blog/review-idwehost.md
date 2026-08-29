@@ -72,11 +72,11 @@ Paket termurah membatasi storage, jumlah email, dan database. Perlu upgrade jika
 ### Fitur backup belum otomatis di semua paket
 Beberapa paket hanya menyediakan backup manual, jadi pengguna harus lebih teliti.
 
-Performa Hosting: Seberapa Cepat?
+#### Performa Hosting: Seberapa Cepat?
 
 Dalam beberapa pengujian independen dan ulasan pengguna:
 
-Uptime stabil di atas 99,9%
+#### Uptime stabil di atas 99,9%
 
 Kecepatan loading halaman rata-rata 1,2 – 2,5 detik untuk website WordPress ringan dengan server Indonesia.
 
