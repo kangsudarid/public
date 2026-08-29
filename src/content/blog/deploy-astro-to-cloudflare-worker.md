@@ -13,7 +13,7 @@ share:
 draft: false
 license: "MIT"
 
-tags: [astro, hugo, adsense]
+tags: [astro, hugo, cloudflare]
 categories: [Web, Tutorial]
 description: "Bagaimana Deploy Astro di Cloudflare Workers, apakah itu populer di kalangan devoloper?"
 ---
@@ -133,5 +133,5 @@ Berikut ini adalah tutorial custome domain di worker cloudflare
 - Tunggu Prosesnya selesai
 
 ## Penutup
-Dengan tutorial ini apa masih bingung, jika kebingungan bisa langsung tanyakan aja di kolom komentar yang ada di bawah ya. 
+Dengan tutorial ini apa masih bingung, jika kebingungan bisa langsung tanyakan aja di kolom komentar yang ada di bawah ya. Kalau menurut jika ingin memilih untuk blog dan local server mending pilih workers ini karena lebih gampang. 
 
