@@ -4,7 +4,7 @@ import { getCollection } from 'astro:content';
 export async function GET(context) {
   const posts = (await getCollection('blog')).sort((a, b) => b.data.pubDate - a.data.pubDate);
   return rss({
-    title: 'vukilis.com',
+    title: 'sudarblogger.com',
     description: 'Blog feed',
     site: context.site,
     items: posts.map((post) => ({
