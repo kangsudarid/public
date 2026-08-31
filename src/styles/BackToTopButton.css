@@ -1,12 +1,12 @@
 :root {
   --btt-size: 64px;
   --btt-accent: var(--accent, #f1c40f);
-  --btt-background: var(--background, #24262b);
+  --btt-background: #24262b;
   --btt-border: rgba(255, 255, 255, 0.08);
 }
 
 [data-theme="light"] {
-  --btt-accent: var(--color-primary, #f1c40f);
+  --btt-accent: var(--color-accent-purple);
   --btt-background: #ffffff;
   --btt-border: rgba(0, 0, 0, 0.08);
 }
