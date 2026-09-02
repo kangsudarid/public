@@ -13,7 +13,7 @@ export async function getStaticPaths({ paginate }: { paginate: (...args: any[]) 
   const sorted = allPosts.sort((a: any, b: any) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
   return paginate(sorted, {
-    pageSize: 10,
+    pageSize: 12,
     format: (p: any) => `/blog/${!p || p === '/' || p === 1 ? '' : p}`
   });
 }
