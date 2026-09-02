@@ -1,5 +1,5 @@
 ---
-title: "Keindahan Pantai Dermaga Tuban, Yang Lagi Viral"
+title: "Keindahan Pantai Dermaga Tuban Yang Lagi Viral"
 url: /pantai-dermaga
 pubDate: 2024-04-11T16:40:00+02:00
 lastmod: 2024-04-11T16:40:00+02:00
