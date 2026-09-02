@@ -17,7 +17,7 @@ license: "MIT"
 tags: [tuban, wisata]
 categories: [Travelling]
 description: "Melihat keindahan wisata tuban serta keliling kota tuban untuk melihat keindahan nya"
---
+---
 
 Kota Tuban dikenal juga dengan julukan Bumi Wali juga memiliki tempat wisata pantai yang indah, mulai dari pantai semilir, pantai cemara, pantai kelapa dan masih banyak lagi. Akan tetapi di Tuban juga memiliki wisata air terjun yang indah lho yang letak nya itu di area Tuban selatan perbatesan dengan Area Bojonegoro.
 
